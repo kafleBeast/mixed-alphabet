@@ -1,0 +1,188 @@
+/*All Pages*/
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+/*Navbar*/
+
+.navbar {
+  padding: 20px;
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #2f73c0;
+}
+
+
+.navbar .links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-top: -50px;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: white;
+  background-color: #2f73c0;;
+  border-radius: 8px;
+}
+.navbar a:hover {
+  background: #ff375a;
+}
+
+
+.navbar .title {
+  color: #2f73c0;
+  margin-top: -15px;
+  font-size: 150%;
+
+}
+/********************************************************************************************************/
+
+
+/*App Page*/
+
+.content {
+  max-width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+}  
+
+
+
+/********************************************************************************************************/
+
+
+/*LandingPage Page*/
+
+.LandingPage{
+  max-width: 60%;
+  padding: 20px;
+  margin: -50px auto;
+
+}
+
+.LandingPage h1{
+  color: #FF5E5E;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.LandingPage-content{
+  margin: auto;
+  
+}
+.LandingPage label{
+  font-size: 150%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+.LandingPage input, textarea{
+  display: flex;
+  /* text-align: center; */
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  font-size: 120%;
+}
+
+.LandingPage button{
+  display: flex;
+  margin: auto;
+}
+/********************************************************************************************************/
+
+/* Solution Page */
+
+.Solution{
+  max-width: 80%;
+  padding: 20px;
+  margin: auto;
+  margin-top: -50px;
+
+}
+
+.Solution h1{
+  color: #FF5E5E;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Solution h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.Solution .reference-images{
+  display: flex;
+  justify-content: center;
+}
+
+.Solution img{
+  object-fit: contain;
+  width: 50%;
+}
+
+.Solution #img1{
+  width: 40%;
+}
+
+.Solution .histogram{
+  display: flex;
+  justify-content: center;
+}
+
+.Solution label{
+  font-size: 150%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+.Solution input, textarea{
+  display: flex;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.Solution .add-equivalents{
+  display: flex;
+  justify-content: center;
+}
+
+.Solution button{
+  padding: 1.2%;
+  margin: auto;
+  background-color: #FF5E5E;
+}
+
+.Solution button:hover {
+  background: #77ace8;
+}
+
+.Solution .addCode-btn{
+  display: flex;
+  margin-bottom: 10px;
+}
+.Solution input{
+  height: 3em;
+}
+
+
+/********************************************************************************************************/
