@@ -102,7 +102,12 @@
 .LandingPage button{
   display: flex;
   margin: auto;
+  background-color: #FF5E5E;
 }
+.LandingPage button:hover {
+  background: #77ace8;
+}
+
 /********************************************************************************************************/
 
 /* Solution Page */
